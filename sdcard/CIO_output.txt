@@ -1,0 +1,1115 @@
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:26:59] All devices started...
+[Thu May 18 16:26:59] SD card started...
+[Thu May 18 16:27:00] SD card tests failed...
+[Thu May 18 16:27:00] InitializeFlashBanks: 0
+[Thu May 18 16:27:01] Busy:0
+[Thu May 18 16:27:01] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:27:02] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:27:02] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:27:02] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:27:03] Inicializou a flash
+[Thu May 18 16:27:03] Writing BRAV at flash, at address 0
+[Thu May 18 16:27:04] set Activy bank return: 0 
+[Thu May 18 16:27:04] return of enableMainBankSectors: 0
+[Thu May 18 16:27:04] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:29:16] All devices started...
+[Thu May 18 16:29:17] SD card started...
+[Thu May 18 16:29:17] SD card tests failed...
+[Thu May 18 16:29:18] InitializeFlashBanks: 0
+[Thu May 18 16:29:18] Busy:0
+[Thu May 18 16:29:19] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:29:19] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:29:20] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:29:20] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:29:21] Inicializou a flash
+[Thu May 18 16:29:21] Writing BRAV at flash, at address 0
+[Thu May 18 16:29:22] set Activy bank return: 0 
+[Thu May 18 16:29:22] return of enableMainBankSectors: 0
+[Thu May 18 16:29:23] return of issueProgrammingCommand: 0
+[Thu May 18 16:29:23] Selected Bank: 0
+[Thu May 18 16:29:23] Success at Fapi_issueProgrammingCommandReading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:44:55] All devices started...
+[Thu May 18 16:44:55] SD card started...
+[Thu May 18 16:44:56] SD card tests failed...
+[Thu May 18 16:44:56] InitializeFlashBanks: 0
+[Thu May 18 16:44:57] Busy:0
+[Thu May 18 16:44:57] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:44:58] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:44:58] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:44:59] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:44:59] Inicializou a flash
+[Thu May 18 16:45:00] Writing BRAV at flash, at address 0
+[Thu May 18 16:45:00] set Activy bank return: 0 
+[Thu May 18 16:45:00] return of enableMainBankSectors: 0
+[Thu May 18 16:45:01] return of issueProgrammingCommand: 0
+[Thu May 18 16:45:01] Selected Bank: 0
+[Thu May 18 16:45:02] Success at Fapi_issueProgrammingCommandReading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:48:08] All devices started...
+[Thu May 18 16:48:08] SD card started...
+[Thu May 18 16:48:08] SD card tests failed...
+[Thu May 18 16:48:09] InitializeFlashBanks: 0
+[Thu May 18 16:48:09] Busy:0
+[Thu May 18 16:48:10] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:48:10] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:48:11] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:48:11] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:48:12] Inicializou a flash
+[Thu May 18 16:48:12] Writing BRAV at flash, at address 0
+[Thu May 18 16:48:13] set Activy bank return: 0 
+[Thu May 18 16:48:13] return of enableMainBankSectors: 0
+[Thu May 18 16:48:14] return of issueProgrammingCommand: 0
+[Thu May 18 16:48:14] Selected Bank: 0
+[Thu May 18 16:48:14] Success at Fapi_issueProgrammingCommand
+[Thu May 18 16:48:15] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:49:20] All devices started...
+[Thu May 18 16:49:20] SD card started...
+[Thu May 18 16:49:21] SD card tests failed...
+[Thu May 18 16:49:21] InitializeFlashBanks: 0
+[Thu May 18 16:49:22] Busy:0
+[Thu May 18 16:49:22] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:49:22] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:49:23] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:49:23] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:49:24] Inicializou a flash
+[Thu May 18 16:49:24] Writing BRAV at flash, at address 0
+[Thu May 18 16:49:25] set Activy bank return: 0 
+[Thu May 18 16:49:25] return of enableMainBankSectors: 0
+[Thu May 18 16:49:26] return of issueProgrammingCommand: 0
+[Thu May 18 16:49:26] Selected Bank: 0
+[Thu May 18 16:49:27] Success at Fapi_issueProgrammingCommand
+[Thu May 18 16:49:27] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 16:56:01] All devices started...
+[Thu May 18 16:56:01] SD card started...
+[Thu May 18 16:56:02] SD card tests failed...
+[Thu May 18 16:56:02] InitializeFlashBanks: 0
+[Thu May 18 16:56:03] Busy:0
+[Thu May 18 16:56:03] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 16:56:03] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 16:56:04] GetBankStatus: 0 (Must be 0)
+[Thu May 18 16:56:04] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 16:56:05] Inicializou a flash
+[Thu May 18 16:56:05] Writing BRAV at flash, at address 0
+[Thu May 18 16:56:06] set Activy bank return: 0 
+[Thu May 18 16:56:06] return of enableMainBankSectors: 0
+[Thu May 18 16:56:07] return of issueProgrammingCommand: 0
+[Thu May 18 16:56:07] Selected Bank: 0
+[Thu May 18 16:56:08] Success at Fapi_issueProgrammingCommand
+[Thu May 18 16:56:08] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 17:23:05] All devices started...
+[Thu May 18 17:23:05] SD card started...
+[Thu May 18 17:23:05] SD card tests failed...
+[Thu May 18 17:23:06] InitializeFlashBanks: 0
+[Thu May 18 17:23:06] Busy:0
+[Thu May 18 17:23:07] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 17:23:07] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 17:23:08] GetBankStatus: 0 (Must be 0)
+[Thu May 18 17:23:08] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 17:23:09] Inicializou a flash
+[Thu May 18 17:23:09] Writing BRAV at flash, at address 0
+[Thu May 18 17:23:10] set Activy bank return: 0 
+[Thu May 18 17:23:10] return of enableMainBankSectors: 0
+[Thu May 18 17:23:10] return of issueProgrammingCommand: 0
+[Thu May 18 17:23:11] Selected Bank: 0
+[Thu May 18 17:23:11] Success at Fapi_issueProgrammingCommand
+[Thu May 18 17:23:12] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 18 17:26:10] All devices started...
+[Thu May 18 17:26:10] SD card started...
+[Thu May 18 17:26:10] SD card tests failed...
+[Thu May 18 17:26:11] InitializeFlashBanks: 0
+[Thu May 18 17:26:11] Busy:0
+[Thu May 18 17:26:12] Versions: Major 2, Build 830, Tech 4
+[Thu May 18 17:26:12] Dev: #Banks 2, Size 384, Pack 100
+[Thu May 18 17:26:13] GetBankStatus: 0 (Must be 0)
+[Thu May 18 17:26:13] Sectors info: #Sectors 15, StartAdd 0
+[Thu May 18 17:26:14] Inicializou a flash
+[Thu May 18 17:26:14] Writing BRAV at flash, at address 0
+[Thu May 18 17:26:15] set Activy bank return: 0 
+[Thu May 18 17:26:15] return of enableMainBankSectors: 0
+[Thu May 18 17:26:16] 
+[Thu May 18 17:26:16] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:05:52] All devices started...
+[Fri May 19 09:05:53] InitializeFlashBanks: 0
+[Fri May 19 09:05:53] Busy:0
+[Fri May 19 09:05:54] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:05:54] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:05:54] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:05:55] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:05:55] Inicializou a flash
+[Fri May 19 09:05:56] Writing BRAV at flash, at address 0
+[Fri May 19 09:05:56] set Activy bank return: 0 
+[Fri May 19 09:05:57] return of enableMainBankSectors: 0
+[Fri May 19 09:05:57] return of issueProgrammingCommand: 0
+[Fri May 19 09:05:58] Selected Bank: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:07:31] All devices started...
+[Fri May 19 09:07:31] InitializeFlashBanks: 0
+[Fri May 19 09:07:32] Busy:0
+[Fri May 19 09:07:32] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:07:33] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:07:33] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:07:34] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:07:34] Inicializou a flash
+[Fri May 19 09:07:35] Writing BRAV at flash, at address 0
+[Fri May 19 09:07:35] set Activy bank return: 0 
+[Fri May 19 09:07:36] return of enableMainBankSectors: 0
+[Fri May 19 09:07:36] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:08:35] All devices started...
+[Fri May 19 09:08:35] InitializeFlashBanks: 0
+[Fri May 19 09:08:36] Busy:0
+[Fri May 19 09:08:36] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:08:37] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:08:37] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:08:38] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:08:38] Inicializou a flash
+[Fri May 19 09:08:39] Writing BRAV at flash, at address 0
+[Fri May 19 09:08:39] set Activy bank return: 0 
+[Fri May 19 09:08:40] return of enableMainBankSectors: 0
+[Fri May 19 09:08:40] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:09:45] All devices started...
+[Fri May 19 09:09:45] InitializeFlashBanks: 0
+[Fri May 19 09:09:46] Busy:0
+[Fri May 19 09:09:46] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:09:47] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:09:47] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:09:48] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:09:48] Inicializou a flash
+[Fri May 19 09:09:49] Writing BRAV at flash, at address 0
+[Fri May 19 09:09:49] set Activy bank return: 0 
+[Fri May 19 09:09:50] return of enableMainBankSectors: 0
+[Fri May 19 09:09:50] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:11:12] All devices started...
+[Fri May 19 09:11:12] InitializeFlashBanks: 0
+[Fri May 19 09:11:13] Busy:0
+[Fri May 19 09:11:13] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:11:14] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:11:14] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:11:15] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:11:15] Inicializou a flash
+[Fri May 19 09:11:16] Writing BRAV at flash, at address 0
+[Fri May 19 09:11:16] set Activy bank return: 0 
+[Fri May 19 09:11:17] return of enableMainBankSectors: 0
+[Fri May 19 09:11:17] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:12:04] All devices started...
+[Fri May 19 09:12:05] InitializeFlashBanks: 0
+[Fri May 19 09:12:05] Busy:0
+[Fri May 19 09:12:06] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:12:06] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:12:07] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:12:07] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:12:08] Inicializou a flash
+[Fri May 19 09:12:08] Writing BRAV at flash, at address 0
+[Fri May 19 09:12:09] set Activy bank return: 0 
+[Fri May 19 09:12:09] return of enableMainBankSectors: 0
+[Fri May 19 09:12:10] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:13:06] All devices started...
+[Fri May 19 09:13:06] InitializeFlashBanks: 0
+[Fri May 19 09:13:07] Busy:0
+[Fri May 19 09:13:07] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:13:08] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:13:08] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:13:09] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:13:09] Inicializou a flash
+[Fri May 19 09:13:10] Writing BRAV at flash, at address 0
+[Fri May 19 09:13:10] set Activy bank return: 0 
+[Fri May 19 09:13:11] return of enableMainBankSectors: 0
+[Fri May 19 09:13:11] return of issueProgrammingCommand: 0
+[Fri May 19 09:13:12] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:13:12] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:14:07] All devices started...
+[Fri May 19 09:14:07] InitializeFlashBanks: 0
+[Fri May 19 09:14:08] Busy:0
+[Fri May 19 09:14:08] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:14:08] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:14:09] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:14:09] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:14:10] Inicializou a flash
+[Fri May 19 09:14:10] Writing BRAV at flash, at address 0
+[Fri May 19 09:14:10] set Activy bank return: 0 
+[Fri May 19 09:14:11] return of enableMainBankSectors: 0
+[Fri May 19 09:14:11] return of issueProgrammingCommand: 0
+[Fri May 19 09:14:12] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:14:12] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:15:41] All devices started...
+[Fri May 19 09:15:42] InitializeFlashBanks: 0
+[Fri May 19 09:15:42] Busy:0
+[Fri May 19 09:15:43] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:15:43] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:15:43] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:15:44] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:15:44] Inicializou a flash
+[Fri May 19 09:15:45] Writing BRAV at flash, at address 0
+[Fri May 19 09:15:45] set Activy bank return: 0 
+[Fri May 19 09:15:46] return of enableMainBankSectors: 0
+[Fri May 19 09:15:46] return of issueProgrammingCommand: 0
+[Fri May 19 09:15:47] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:15:47] Reading flash memory
+[Fri May 19 09:15:48] Success at Fapi_doMarginRead()
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:17:10] All devices started...
+[Fri May 19 09:17:10] InitializeFlashBanks: 0
+[Fri May 19 09:17:11] Busy:0
+[Fri May 19 09:17:11] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:17:12] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:17:12] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:17:13] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:17:13] Inicializou a flash
+[Fri May 19 09:17:14] Writing BRAV at flash, at address 0
+[Fri May 19 09:17:14] set Activy bank return: 0 
+[Fri May 19 09:17:15] return of enableMainBankSectors: 0
+[Fri May 19 09:17:15] return of issueProgrammingCommand: 0
+[Fri May 19 09:17:16] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:17:16] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:19:27] All devices started...
+[Fri May 19 09:19:27] InitializeFlashBanks: 0
+[Fri May 19 09:19:28] Busy:0
+[Fri May 19 09:19:28] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:19:29] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:19:29] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:19:30] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:19:30] Inicializou a flash
+[Fri May 19 09:19:31] Writing BRAV at flash, at address 0
+[Fri May 19 09:19:31] set Activy bank return: 0 
+[Fri May 19 09:19:32] return of enableMainBankSectors: 0
+[Fri May 19 09:19:32] return of issueProgrammingCommand: 0
+[Fri May 19 09:19:33] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:19:33] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:21:41] All devices started...
+[Fri May 19 09:21:42] InitializeFlashBanks: 0
+[Fri May 19 09:21:42] Busy:0
+[Fri May 19 09:21:43] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:21:43] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:21:43] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:21:44] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:21:44] Inicializou a flash
+[Fri May 19 09:21:45] Writing BRAV at flash, at address 0
+[Fri May 19 09:21:45] set Activy bank return: 0 
+[Fri May 19 09:21:46] return of enableMainBankSectors: 0
+[Fri May 19 09:21:46] return of issueProgrammingCommand: 0
+[Fri May 19 09:21:47] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:21:47] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:25:44] All devices started...
+[Fri May 19 09:25:44] InitializeFlashBanks: 0
+[Fri May 19 09:25:45] Busy:0
+[Fri May 19 09:25:45] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:25:46] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:25:46] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:25:47] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:25:47] Inicializou a flash
+[Fri May 19 09:25:48] Writing BRAV at flash, at address 0
+[Fri May 19 09:25:48] set Activy bank return: 0 
+[Fri May 19 09:25:48] return of enableMainBankSectors: 0
+[Fri May 19 09:25:49] return of issueProgrammingCommand: 0
+[Fri May 19 09:25:49] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:25:50] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:34:42] All devices started...
+[Fri May 19 09:34:42] InitializeFlashBanks: 0
+[Fri May 19 09:34:43] Busy:0
+[Fri May 19 09:34:43] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:34:44] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:34:44] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:34:45] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:34:45] Inicializou a flash
+[Fri May 19 09:34:46] Writing BRAV at flash, at address 0
+[Fri May 19 09:34:46] set Activy bank return: 0 
+[Fri May 19 09:34:47] return of enableMainBankSectors: 0
+[Fri May 19 09:34:47] return of issueProgrammingCommand: 0
+[Fri May 19 09:34:48] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:34:48] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:37:27] All devices started...
+[Fri May 19 09:37:28] InitializeFlashBanks: 0
+[Fri May 19 09:37:28] Busy:0
+[Fri May 19 09:37:29] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:37:29] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:37:30] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:37:30] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:37:31] Inicializou a flash
+[Fri May 19 09:37:31] Writing BRAV at flash, at address 0
+[Fri May 19 09:37:32] set Activy bank return: 0 
+[Fri May 19 09:37:32] return of enableMainBankSectors: 0
+[Fri May 19 09:37:33] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:38:41] All devices started...
+[Fri May 19 09:38:42] InitializeFlashBanks: 0
+[Fri May 19 09:38:42] Busy:0
+[Fri May 19 09:38:43] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:38:43] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:38:43] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:38:44] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:38:44] Inicializou a flash
+[Fri May 19 09:38:45] Writing BRAV at flash, at address 0
+[Fri May 19 09:38:45] set Activy bank return: 0 
+[Fri May 19 09:38:46] return of enableMainBankSectors: 0
+[Fri May 19 09:38:46] return of issueProgrammingCommand: 0
+[Fri May 19 09:38:47] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:38:47] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL: File: C:\Users\Rafael\workspace_v7\sdcard\Debug\sdcard.out Load cancelled by user.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:45:21] All devices started...
+[Fri May 19 09:45:22] InitializeFlashBanks: 0
+[Fri May 19 09:45:22] Busy:0
+[Fri May 19 09:45:23] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:45:23] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:45:24] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:45:24] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:45:25] Inicializou a flash
+[Fri May 19 09:45:25] Writing BRAV at flash, at address 0
+[Fri May 19 09:45:26] All devices started...
+[Fri May 19 09:45:26] InitializeFlashBanks: 0
+[Fri May 19 09:45:27] Busy:0
+[Fri May 19 09:45:27] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:45:28] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:45:28] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:45:29] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:45:29] Inicializou a flash
+[Fri May 19 09:45:30] Writing BRAV at flash, at address 0
+[Fri May 19 09:45:30] All devices started...
+[Fri May 19 09:45:31] InitializeFlashBanks: 0
+[Fri May 19 09:45:31] Busy:0
+[Fri May 19 09:45:32] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:45:32] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:45:33] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:45:33] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:45:34] Inicializou a flash
+[Fri May 19 09:45:34] Writing BRAV at flash, at address 0
+[Fri May 19 09:45:35] All devices started...
+[Fri May 19 09:45:35] InitializeFlashBanks: 0
+[Fri May 19 09:45:36] Busy:0
+[Fri May 19 09:45:36] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:45:37] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:45:37] GetBankStatus: 0 (Must be 0)
+IcePick: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 6.0.576.0) 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 09:49:31] All devices started...
+[Fri May 19 09:49:31] InitializeFlashBanks: 0
+[Fri May 19 09:49:32] Busy:0
+[Fri May 19 09:49:32] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 09:49:33] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 09:49:33] GetBankStatus: 0 (Must be 0)
+[Fri May 19 09:49:34] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 09:49:34] Inicializou a flash
+[Fri May 19 09:49:34] Writing BRAV at flash, at address 0
+[Fri May 19 09:49:35] set Activy bank return: 0 
+[Fri May 19 09:49:35] return of enableMainBankSectors: 0
+[Fri May 19 09:49:36] return of issueProgrammingCommand: 0
+[Fri May 19 09:49:36] Success at Fapi_issueProgrammingCommand
+[Fri May 19 09:49:37] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 10:06:02] All devices started...
+[Fri May 19 10:06:02] InitializeFlashBanks: 0
+[Fri May 19 10:06:03] Busy:0
+[Fri May 19 10:06:03] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 10:06:04] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 10:06:04] GetBankStatus: 0 (Must be 0)
+[Fri May 19 10:06:05] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 10:06:05] Inicializou a flash
+[Fri May 19 10:06:06] Writing BRAV at flash, at address 0
+[Fri May 19 10:06:06] set Activy bank return: 0 
+[Fri May 19 10:06:07] return of enableMainBankSectors: 0
+[Fri May 19 10:06:07] return of issueProgrammingCommand: 0
+[Fri May 19 10:06:08] Success at Fapi_issueProgrammingCommand
+[Fri May 19 10:06:08] Reading flash memory
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 10:46:59] All devices started...
+[Fri May 19 10:46:59] InitializeFlashBanks: 0
+[Fri May 19 10:47:00] Busy:0
+[Fri May 19 10:47:00] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 10:47:01] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 10:47:01] GetBankStatus: 0 (Must be 0)
+[Fri May 19 10:47:02] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 10:47:02] Inicializou a flash
+[Fri May 19 10:47:03] Writing BRAV at flash, at address 0
+[Fri May 19 10:47:03] set Activy bank return: 0 
+[Fri May 19 10:47:04] return of enableMainBankSectors: 0
+[Fri May 19 10:47:04] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 10:49:15] All devices started...
+[Fri May 19 10:49:16] InitializeFlashBanks: 0
+[Fri May 19 10:49:16] Busy:0
+[Fri May 19 10:49:17] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 10:49:17] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 10:49:18] GetBankStatus: 0 (Must be 0)
+[Fri May 19 10:49:18] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 10:49:19] Inicializou a flash
+[Fri May 19 10:49:19] Writing BRAV at flash, at address 0
+[Fri May 19 10:49:20] set Activy bank return: 0 
+[Fri May 19 10:49:20] return of enableMainBankSectors: 0
+[Fri May 19 10:49:21] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 10:50:29] All devices started...
+[Fri May 19 10:50:29] InitializeFlashBanks: 0
+[Fri May 19 10:50:30] Busy:0
+[Fri May 19 10:50:30] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 10:50:31] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 10:50:31] GetBankStatus: 0 (Must be 0)
+[Fri May 19 10:50:32] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 10:50:32] Inicializou a flash
+[Fri May 19 10:50:33] Writing BRAV at flash, at address 0
+[Fri May 19 10:50:34] set Activy bank return: 0 
+[Fri May 19 10:50:34] return of enableMainBankSectors: 0
+[Fri May 19 10:50:35] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Fri May 19 10:51:17] All devices started...
+[Fri May 19 10:51:18] InitializeFlashBanks: 0
+[Fri May 19 10:51:18] Busy:0
+[Fri May 19 10:51:19] Versions: Major 2, Build 830, Tech 4
+[Fri May 19 10:51:19] Dev: #Banks 2, Size 384, Pack 100
+[Fri May 19 10:51:20] GetBankStatus: 0 (Must be 0)
+[Fri May 19 10:51:20] Sectors info: #Sectors 15, StartAdd 0
+[Fri May 19 10:51:21] Inicializou a flash
+[Fri May 19 10:51:22] Writing BRAV at flash, at address 0
+[Fri May 19 10:51:22] set Activy bank return: 0 
+[Fri May 19 10:51:23] return of enableMainBankSectors: 0
+[Fri May 19 10:51:23] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 08:57:43] All devices started...
+[Tue May 23 08:57:43] InitializeFlashBanks: 0
+[Tue May 23 08:57:44] Busy:0
+[Tue May 23 08:57:44] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 08:57:45] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 08:57:45] GetBankStatus: 0 (Must be 0)
+[Tue May 23 08:57:46] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 08:57:46] Inicializou a flash
+[Tue May 23 08:57:47] Writing BRAV at flash, at address 0
+[Tue May 23 08:57:47] set Activy bank return: 0 
+[Tue May 23 08:57:48] return of enableMainBankSectors: 0
+[Tue May 23 08:57:48] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:00:52] All devices started...
+[Tue May 23 09:00:52] InitializeFlashBanks: 0
+[Tue May 23 09:00:53] Busy:0
+[Tue May 23 09:00:53] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:00:54] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:00:54] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:00:55] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:00:55] Inicializou a flash
+[Tue May 23 09:00:56] Writing BRAV at flash, at address 0
+[Tue May 23 09:00:56] set Activy bank return: 0 
+[Tue May 23 09:00:56] return of enableMainBankSectors: 0
+[Tue May 23 09:00:57] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:02:57] All devices started...
+[Tue May 23 09:02:58] InitializeFlashBanks: 0
+[Tue May 23 09:02:58] Busy:0
+[Tue May 23 09:02:59] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:02:59] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:03:00] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:03:00] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:03:01] Inicializou a flash
+[Tue May 23 09:03:01] Writing BRAV at flash, at address 0
+[Tue May 23 09:03:02] set Activy bank return: 0 
+[Tue May 23 09:03:02] return of enableMainBankSectors: 0
+[Tue May 23 09:03:03] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:37:22] All devices started...
+[Tue May 23 09:37:22] InitializeFlashBanks: 0
+[Tue May 23 09:37:23] Busy:0
+[Tue May 23 09:37:23] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:37:24] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:37:24] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:37:25] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:37:25] Init a flash
+[Tue May 23 09:37:26] Writing BRAV at flash, at address 0
+[Tue May 23 09:37:26] set Activy bank return: 0 
+[Tue May 23 09:37:27] return of enableMainBankSectors: 0
+[Tue May 23 09:37:27] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:39:51] All devices started...
+[Tue May 23 09:39:52] InitializeFlashBanks: 0
+[Tue May 23 09:39:52] Busy:0
+[Tue May 23 09:39:53] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:39:53] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:39:54] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:39:54] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:39:55] Init a flash
+[Tue May 23 09:39:55] Writing BRAV at flash, at address 0
+[Tue May 23 09:39:55] set Activy bank return: 0 
+[Tue May 23 09:39:56] return of enableMainBankSectors: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:45:15] All devices started...
+[Tue May 23 09:45:16] InitializeFlashBanks: 0
+[Tue May 23 09:45:16] Busy:0
+[Tue May 23 09:45:17] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:45:17] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:45:18] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:45:18] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:45:19] Init a flash
+[Tue May 23 09:45:19] Writing BRAV at flash, at address 0
+[Tue May 23 09:45:20] set Activy bank return: 0 
+[Tue May 23 09:45:20] return of enableMainBankSectors: 0
+[Tue May 23 09:45:21] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:46:39] All devices started...
+[Tue May 23 09:46:39] InitializeFlashBanks: 0
+[Tue May 23 09:46:40] Busy:0
+[Tue May 23 09:46:40] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:46:41] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:46:41] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:46:42] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:46:42] Init a flash
+[Tue May 23 09:46:43] Writing BRAV at flash, at address 0
+[Tue May 23 09:46:43] set Activy bank return: 0 
+[Tue May 23 09:46:44] return of enableMainBankSectors: 0
+[Tue May 23 09:46:44] return of issueProgrammingCommand: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:48:23] All devices started...
+[Tue May 23 09:48:23] InitializeFlashBanks: 0
+[Tue May 23 09:48:24] Busy:0
+[Tue May 23 09:48:24] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:48:25] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:48:25] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:48:25] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:48:26] Init a flash
+[Tue May 23 09:48:26] Writing BRAV at flash, at address 0
+[Tue May 23 09:48:27] set Activy bank return: 0 
+[Tue May 23 09:48:27] return of enableMainBankSectors: 0
+[Tue May 23 09:48:28] return of issueProgrammingCommand: 0
+[Tue May 23 09:48:28] Success at Fapi_issueProgrammingCommanddo verify return 3
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:50:34] All devices started...
+[Tue May 23 09:50:35] InitializeFlashBanks: 0
+[Tue May 23 09:50:35] Busy:0
+[Tue May 23 09:50:36] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:50:36] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:50:37] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:50:37] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:50:38] Init a flash
+[Tue May 23 09:50:38] Writing BRAV at flash, at address 0
+[Tue May 23 09:50:39] set Activy bank return: 0 
+[Tue May 23 09:50:39] return of enableMainBankSectors: 0
+[Tue May 23 09:50:40] return of issueProgrammingCommand: 0
+[Tue May 23 09:50:40] Success at Fapi_issueProgrammingCommand
+[Tue May 23 09:50:41] do verify return 3
+[Tue May 23 09:50:41] do verify status 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 09:51:43] All devices started...
+[Tue May 23 09:51:43] InitializeFlashBanks: 0
+[Tue May 23 09:51:44] Busy:0
+[Tue May 23 09:51:44] Versions: Major 2, Build 830, Tech 4
+[Tue May 23 09:51:45] Dev: #Banks 2, Size 384, Pack 100
+[Tue May 23 09:51:45] GetBankStatus: 0 (Must be 0)
+[Tue May 23 09:51:46] Sectors info: #Sectors 15, StartAdd 0
+[Tue May 23 09:51:46] Init a flash
+[Tue May 23 09:51:47] Writing BRAV at flash, at address 0
+[Tue May 23 09:51:47] set Activy bank return: 0 
+[Tue May 23 09:51:48] return of enableMainBankSectors: 0
+[Tue May 23 09:51:48] return of issueProgrammingCommand: 0
+[Tue May 23 09:51:49] Success at Fapi_issueProgrammingCommand
+[Tue May 23 09:51:49] do verify return 3
+[Tue May 23 09:51:50] do verify status 134221708
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:17:59] All devices started...
+[Tue May 23 10:18:00] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:26:04] All devices started...
+[Tue May 23 10:26:04] Return of programming command 0
+[Tue May 23 10:26:05] Return of do Verify 3
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:29:24] All devices started...
+[Tue May 23 10:29:25] Return of programming command 0
+[Tue May 23 10:29:25] Return of do Verify 3
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:35:30] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:49:05] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:52:13] All devices started...
+[Tue May 23 10:53:58] Return of programming command 0
+[Tue May 23 10:55:58] Return of do Verify 3
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 10:58:14] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 23 11:00:06] All devices started...
+[Tue May 23 11:00:10] Return of programming command 0
+[Tue May 23 11:00:13] Return of do Verify 3
+IcePick: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 6.0.576.0) 
+IcePick: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 6.0.576.0) 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 14:58:00] All devices started...
+IcePick: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may be one or more of: no XDS100 is plugged in, invalid XDS100 serial number, blank XDS100 EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the XDS100 can be located. (Emulation package 6.0.576.0) 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:01:13] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:07:42] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:08:59] All devices started...
+[Wed May 24 15:09:02] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:18:14] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:19:24] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:38:22] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:42:31] All devices started...
+[Wed May 24 15:43:02] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:44:17] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 24 15:45:12] All devices started...
+[Wed May 24 15:45:23] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 10:17:08] All devices started...
+[Thu May 25 10:17:08] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 10:18:30] All devices started...
+[Thu May 25 10:18:31] Return of programming command 0
+[Thu May 25 10:19:06] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: Loader: One or more sections of your program falls into a memory region that is not writable.  These regions will not actually be written to the target.  Check your linker configuration and/or memory map.
+CortexR4: File Loader: Verification failed: Values at address 0x00000000 do not match Please verify target memory and memory map.
+CortexR4: GEL: File: C:\Users\Rafael\workspace_v7\sdcard\Debug\sdcard.out: a data verification error occurred, file load failed.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for RAM @ Address 0x0.CortexR4: GEL Output: 	For Debugging Only!CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 10:39:53] All devices started...
+[Thu May 25 10:39:54] Return of programming command 0
+[Thu May 25 10:39:54] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 10:40:34] All devices started...
+[Thu May 25 10:40:35] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 14:18:21] All devices started...
+[Thu May 25 14:18:22] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Thu May 25 14:19:47] All devices started...
+[Thu May 25 14:19:48] Return of programming command 0
+[Thu May 25 14:19:57] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 11:29:32] All devices started...
+[Mon May 29 11:29:32] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 11:34:04] All devices started...
+[Mon May 29 11:34:05] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 11:37:09] All devices started...
+[Mon May 29 11:37:10] Return of programming command 0
+[Mon May 29 11:37:10] 234
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:22:39] All devices started...
+[Mon May 29 13:22:39] Return of programming command 0
+[Mon May 29 13:22:52] Return of do Margin Read By Byte 0
+[Mon May 29 13:22:52] 234
+[Mon May 29 13:22:53] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:24:35] All devices started...
+[Mon May 29 13:24:35] Return of programming command 0
+[Mon May 29 13:24:55] Return of do Margin Read By Byte 0
+[Mon May 29 13:24:59] 234
+[Mon May 29 13:24:59] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:25:57] All devices started...
+[Mon May 29 13:25:58] Return of programming command 0
+[Mon May 29 13:26:03] Return of do Margin Read By Byte 0
+[Mon May 29 13:26:08] 234
+[Mon May 29 13:26:08] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:32:19] All devices started...
+[Mon May 29 13:32:20] Return of issue Command With Address 5
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:35:01] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:43:57] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:44:54] All devices started...
+[Mon May 29 13:44:54] Return of issue Command With Address 0
+[Mon May 29 13:44:55] Return of programming command 0
+[Mon May 29 13:44:55] Return of do Margin Read By Byte 0
+[Mon May 29 13:44:56] 234
+[Mon May 29 13:44:56] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:47:07] All devices started...
+[Mon May 29 13:47:20] Return of programming command 0
+[Mon May 29 13:47:21] Return of do Margin Read By Byte 0
+[Mon May 29 13:47:32] 234
+[Mon May 29 13:47:33] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 13:51:31] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for RAM @ Address 0x0.CortexR4: GEL Output: 	For Debugging Only!CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:07:10] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: NOTES:
+	The Flash/RAM memory adresses of the device will be switched.CortexR4: GEL Output: 	At the end of this routine the device will be reset.CortexR4: GEL Output: 	This might lead to an popup message stating an error!CortexR4: GEL Output: 	Just re-connect after the message appeared.CortexR4: GEL Output: 	Memory swap is done.CortexR4: GEL Output: 	In case a popup message appaered, re-connect to the device.CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0[CortexR4] [Mon May 29 14:08:49] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:10:08] All devices started...
+[Mon May 29 14:10:08] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:11:05] All devices started...
+[Mon May 29 14:11:06] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: AutoRun: Target not run as breakpoint could not be set: Error enabling this function: There is no AET resource to support this job.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:13:06] All devices started...
+[Mon May 29 14:13:13] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:14:27] All devices started...
+[Mon May 29 14:14:31] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:15:21] All devices started...
+[Mon May 29 14:15:23] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:18:14] All devices started...
+[Mon May 29 14:18:18] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:22:37] All devices started...
+[Mon May 29 14:22:41] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: AutoRun: Target not run as breakpoint could not be set: Error enabling this function: There is no AET resource to support this job.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:26:56] All devices started...
+[Mon May 29 14:26:57] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:28:42] All devices started...
+[Mon May 29 14:28:43] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:41:29] All devices started...
+[Mon May 29 14:41:30] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 14:43:03] All devices started...
+[Mon May 29 14:43:03] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 16:45:31] All devices started...
+[Mon May 29 16:45:32] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Mon May 29 16:46:18] All devices started...
+[Mon May 29 16:46:19] Return check 0
+[Mon May 29 16:46:32] Return of programming command 0
+[Mon May 29 16:46:33] Return of do Margin Read By Byte 0
+[Mon May 29 16:46:34] 234
+[Mon May 29 16:46:34] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 10:16:37] All devices started...
+[Tue May 30 10:16:37] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 10:18:02] All devices started...
+[Tue May 30 10:18:02] Return check 0
+[Tue May 30 10:18:18] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: AutoRun: Target not run as breakpoint could not be set: Error enabling this function: There is no AET resource to support this job.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:03:55] All devices started...
+[Tue May 30 11:03:55] Return check 9
+[Tue May 30 11:04:47] Return of programming command 0
+[Tue May 30 11:04:48] Return of do Margin Read By Byte 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:11:23] All devices started...
+[Tue May 30 11:11:24] Return check 9
+[Tue May 30 11:11:43] Return of programming command 0
+[Tue May 30 11:11:44] Return of do Margin Read By Byte 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:15:30] All devices started...
+[Tue May 30 11:15:30] Return check 0
+[Tue May 30 11:15:31] Return check 9
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:18:43] All devices started...
+[Tue May 30 11:18:44] Return check 0
+[Tue May 30 11:18:45] Return check 9
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:20:14] All devices started...
+[Tue May 30 11:20:15] Return check 0
+[Tue May 30 11:20:15] Return check 9
+[Tue May 30 11:20:17] Return of programming command 0
+[Tue May 30 11:20:18] Return of do Margin Read By Byte 0
+[Tue May 30 11:20:24] 234
+[Tue May 30 11:20:25] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 11:21:24] All devices started...
+[Tue May 30 11:21:25] Return check 0
+[Tue May 30 11:21:25] Return check 9
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 14:04:57] All devices started...
+[Tue May 30 14:04:57] Return check 0
+[Tue May 30 14:04:57] Return check 9
+[Tue May 30 14:05:00] Return of programming command 9
+[Tue May 30 14:05:01] Return of do Margin Read By Byte 0
+[Tue May 30 14:05:01] 255
+[Tue May 30 14:05:02] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 14:07:15] All devices started...
+[Tue May 30 14:07:16] Return check 0
+[Tue May 30 14:07:16] Return check 9
+[Tue May 30 14:07:19] Return of programming command 0
+[Tue May 30 14:07:47] Return of do Margin Read By Byte 0
+[Tue May 30 14:07:48] 255
+[Tue May 30 14:07:48] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 14:09:57] All devices started...
+[Tue May 30 14:09:57] Return check 0
+[Tue May 30 14:09:58] Return check 9
+[Tue May 30 14:10:02] Return of programming command 0
+[Tue May 30 14:10:06] Return of do Margin Read By Byte 0
+[Tue May 30 14:10:06] 255
+[Tue May 30 14:10:07] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Tue May 30 14:11:16] All devices started...
+[Tue May 30 14:11:16] Return check 0
+[Tue May 30 14:11:17] Return check 9
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:01:52] All devices started...
+[Wed May 31 10:01:52] Return check 0
+[Wed May 31 10:01:53] Return check 9
+[Wed May 31 10:01:53] Return of programming command 0
+[Wed May 31 10:01:54] Return of do Margin Read By Byte 0
+[Wed May 31 10:01:54] 255
+[Wed May 31 10:01:55] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:02:38] All devices started...
+[Wed May 31 10:02:39] Return check 0
+[Wed May 31 10:02:39] Return check 9
+[Wed May 31 10:02:46] Return of programming command 0
+[Wed May 31 10:02:46] Return of do Margin Read By Byte 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL: File: C:\Users\Rafael\workspace_v7\sdcard\Debug\sdcard.out Load cancelled by user.
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:28:21] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:29:31] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:44:23] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 10:49:08] All devices started...
+[Wed May 31 10:49:08] Return check 0
+[Wed May 31 10:49:11] Return check 0
+IcePick: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 6.0.576.0) 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 11:00:30] All devices started...
+[Wed May 31 11:00:30] Return check 0
+[Wed May 31 11:00:34] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 11:09:35] All devices started...
+[Wed May 31 11:09:36] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 11:25:34] All devices started...
+[Wed May 31 11:25:34] Return check 0
+[Wed May 31 11:25:35] Return of programming command 0
+[Wed May 31 11:25:35] 255
+[Wed May 31 11:25:36] After wait while
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 11:27:02] All devices started...
+[Wed May 31 11:27:03] Return check 0
+[Wed May 31 11:27:03] Return of programming command 0
+[Wed May 31 11:27:28] 255
+[Wed May 31 11:27:28] After wait while
+IcePick: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 6.0.576.0) 
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:16:36] All devices started...
+[Wed May 31 14:16:37] Return check 12
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:18:08] All devices started...
+[Wed May 31 14:18:08] Return check 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:19:27] All devices started...
+[Wed May 31 14:19:28] Return check 0
+[Wed May 31 14:19:58] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:30:18] All devices started...
+[Wed May 31 14:30:18] Return check 0
+[Wed May 31 14:30:45] Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:45:34] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:53:50] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] [Wed May 31 14:57:25] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] All devices started...
