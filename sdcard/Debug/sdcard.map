@@ -1,10 +1,10 @@
 ******************************************************************************
                   TI ARM Linker PC v5.2.9                      
 ******************************************************************************
->> Linked Thu Jun 01 11:05:03 2017
+>> Linked Tue Jun 13 15:19:18 2017
 
 OUTPUT FILE NAME:   <sdcard.out>
-ENTRY POINT SYMBOL: "_c_int00"  address: 00008f4c
+ENTRY POINT SYMBOL: "_c_int00"  address: 0000917c
 
 
 MEMORY CONFIGURATION
@@ -12,7 +12,7 @@ MEMORY CONFIGURATION
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
   VECTORS               00000000   00000020  00000020  00000000     X
-  FLASH0                00000020   0005ffe0  0000bf34  000540ac  R  X
+  FLASH0                00000020   0005ffe0  0000bfc4  0005401c  R  X
   STACKS                08000000   00001500  00000000  00001500  RW  
   RAM                   08001500   00006b00  00000d45  00005dbb  RW  
 
@@ -21,11 +21,11 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
-00000000    00000000    0000bf58   0000bf58    r-x
+00000000    00000000    0000bfe8   0000bfe8    r-x
   00000000    00000000    00000020   00000020    r-x .intvecs
-  00000020    00000020    0000b818   0000b818    r-x .text
-  0000b838    0000b838    00000644   00000644    r-- .const
-  0000be80    0000be80    000000d8   000000d8    r-- .cinit
+  00000020    00000020    0000b8a8   0000b8a8    r-x .text
+  0000b8c8    0000b8c8    00000644   00000644    r-- .const
+  0000bf10    0000bf10    000000d8   000000d8    r-- .cinit
 08001500    08001500    00000d48   00000000    rw-
   08001500    08001500    00000800   00000000    rw- .sysmem
   08001d00    08001d00    00000335   00000000    rw- .data
@@ -40,7 +40,7 @@ section   page    origin      length       input sections
 .intvecs   0    00000000    00000020     
                   00000000    00000020     sys_intvecs.obj (.intvecs)
 
-.text      0    00000020    0000b818     
+.text      0    00000020    0000b8a8     
                   00000020    000024f0     sys_selftest.obj (.text)
                   00002510    00001a7c     rtsv7R4_A_be_eabi.lib : _printfi.obj (.text)
                   00003f8c    00000adc     spi.obj (.text)
@@ -57,89 +57,89 @@ section   page    origin      length       input sections
                   000085b8    000002b8     rtsv7R4_A_be_eabi.lib : ull_div32.obj (.text)
                   00008870    00000268     sys_vim.obj (.text:retain)
                   00008ad8    00000260     F021_API_CortexR4_BE.lib : FlashStateMachine.InitializeFlashBanks.obj (.text:Fapi_initializeFlashBanks)
-                  00008d38    00000214     rtsv7R4_A_be_eabi.lib : fd_add32.obj (.text)
-                  00008f4c    00000208     sys_startup.obj (.text:retain)
-                  00009154    000001d4     rtsv7R4_A_be_eabi.lib : fputs.obj (.text)
-                  00009328    000001a0                           : xdscale.obj (.text)
-                  000094c8    000001a0     sys_main.obj (.text)
-                  00009668    00000190     rtsv7R4_A_be_eabi.lib : fd_div32.obj (.text)
-                  000097f8    00000180                           : memcpy32.obj (.text)
-                  00009978    0000017c     F021_API_CortexR4_BE.lib : FlashStateMachine.SetActiveBank.obj (.text:Fapi_setActiveFlashBank)
-                  00009af4    00000178                              : Program.obj (.text:Fapi_issueProgrammingCommand)
-                  00009c6c    00000160     rtsv7R4_A_be_eabi.lib : xdnorm.obj (.text)
-                  00009dcc    00000158                           : setvbuf.obj (.text)
-                  00009f24    00000154     pinmux.obj (.text)
-                  0000a078    00000130     rtsv7R4_A_be_eabi.lib : fflush.obj (.text)
-                  0000a1a8    00000128                           : fd_mul32.obj (.text)
-                  0000a2d0    00000118                           : _io_perm.obj (.text)
-                  0000a3e8    0000010c                           : fputc.obj (.text)
-                  0000a4f4    000000fc                           : fclose.obj (.text)
-                  0000a5f0    000000ec     esm.obj (.text:retain)
-                  0000a6dc    000000e8     dabort.obj (.text)
-                  0000a7c4    000000e0     rtsv7R4_A_be_eabi.lib : fd_cmp32.obj (.text:__aeabi_cdcmple)
-                  0000a8a4    000000e0                           : fd_cmp32.obj (.text:__aeabi_cdrcmple)
-                  0000a984    000000e0     sys_pmu.obj (.text)
-                  0000aa64    000000d0     notification.obj (.text)
-                  0000ab34    000000b4     rtsv7R4_A_be_eabi.lib : xdunscal.obj (.text)
-                  0000abe8    000000b0                           : memset32.obj (.text)
-                  0000ac98    000000a8                           : fseek.obj (.text)
-                  0000ad40    000000a4                           : autoinit.obj (.text)
-                  0000ade4    000000a4                           : printf.obj (.text)
-                  0000ae88    000000a4                           : trgmsg.obj (.text)
-                  0000af2c    0000009c                           : copy_decompress_rle.obj (.text)
-                  0000afc8    00000084                           : atoi.obj (.text)
-                  0000b04c    00000084                           : cpy_tbl.obj (.text)
-                  0000b0d0    00000080                           : ltoa.obj (.text)
-                  0000b150    00000078                           : exit.obj (.text)
-                  0000b1c8    00000070     F021_API_CortexR4_BE.lib : FlashStateMachine.EnableMainSectors.obj (.text:Fapi_enableMainBankSectors)
-                  0000b238    00000068     rtsv7R4_A_be_eabi.lib : ldexp.obj (.text)
-                  0000b2a0    00000064                           : signal.obj (.text)
-                  0000b304    0000005c                           : fd_toi32.obj (.text)
-                  0000b360    00000058                           : fd_tou32.obj (.text)
-                  0000b3b8    00000058                           : feraiseexcept.obj (.text)
-                  0000b410    00000054                           : i_div32.obj (.text)
-                  0000b464    00000050                           : u_div32.obj (.text)
-                  0000b4b4    0000004c                           : raise.obj (.text)
-                  0000b500    00000048                           : strncpy.obj (.text)
-                  0000b548    00000044                           : xferaise.obj (.text)
-                  0000b58c    0000003c     F021_API_CortexR4_BE.lib : FlashStateMachine.IssueFsmCommand.obj (.text:_Fapi_issueFsmCommand)
-                  0000b5c8    0000003c     rtsv7R4_A_be_eabi.lib : i_tofd32.obj (.text)
-                  0000b604    00000036     F021_API_CortexR4_BE.lib : Utilities.CalculateFletcher.obj (.text:Fapi_calculateFletcherChecksum)
-                  0000b63a    00000002     --HOLE-- [fill = 0]
-                  0000b63c    00000034     rtsv7R4_A_be_eabi.lib : u_tofd32.obj (.text)
-                  0000b670    00000030                           : frexp.obj (.text)
-                  0000b6a0    0000002c                           : memccpy.obj (.text)
-                  0000b6cc    0000002c                           : memchr.obj (.text)
-                  0000b6f8    00000028                           : strchr.obj (.text)
-                  0000b720    00000028                           : strcmp.obj (.text)
-                  0000b748    00000024                           : _lock.obj (.text)
-                  0000b76c    00000020                           : strlen.obj (.text)
-                  0000b78c    0000001c     F021_API_CortexR4_BE.lib : FlashStateMachine.InitializeFlashBanks.obj (.text:_Fapi_divideUnsignedLong)
-                  0000b7a8    00000018     rtsv7R4_A_be_eabi.lib : strcpy.obj (.text)
-                  0000b7c0    00000014     F021_API_CortexR4_BE.lib : Utilities.CalculateEcc.obj (.text:Fapi_calculateEcc)
-                  0000b7d4    00000014     rtsv7R4_A_be_eabi.lib : copy_decompress_none.obj (.text:decompress:none)
-                  0000b7e8    00000010     F021_API_CortexR4_BE.lib : Utilities.GetNumberOfSectors.obj (.text:Fapi_getNumberOfBankSectors)
-                  0000b7f8    00000010                              : FlashStateMachine.ScaleFclk.obj (.text:_scaleEEFclk)
-                  0000b808    00000010                              : FlashStateMachine.ScaleFclk.obj (.text:_scaleMainFclk)
-                  0000b818    00000010     rtsv7R4_A_be_eabi.lib : copy_zero_init.obj (.text:decompress:ZI)
-                  0000b828    00000008                           : copy_decompress_rle.obj (.text:decompress:rle24)
-                  0000b830    00000004     sys_phantom.obj (.text:retain)
-                  0000b834    00000004     rtsv7R4_A_be_eabi.lib : i_div0.obj (.text)
+                  00008d38    00000230     sys_main.obj (.text)
+                  00008f68    00000214     rtsv7R4_A_be_eabi.lib : fd_add32.obj (.text)
+                  0000917c    00000208     sys_startup.obj (.text:retain)
+                  00009384    000001d4     rtsv7R4_A_be_eabi.lib : fputs.obj (.text)
+                  00009558    000001a0                           : xdscale.obj (.text)
+                  000096f8    00000190                           : fd_div32.obj (.text)
+                  00009888    00000180                           : memcpy32.obj (.text)
+                  00009a08    0000017c     F021_API_CortexR4_BE.lib : FlashStateMachine.SetActiveBank.obj (.text:Fapi_setActiveFlashBank)
+                  00009b84    00000178                              : Program.obj (.text:Fapi_issueProgrammingCommand)
+                  00009cfc    00000160     rtsv7R4_A_be_eabi.lib : xdnorm.obj (.text)
+                  00009e5c    00000158                           : setvbuf.obj (.text)
+                  00009fb4    00000154     pinmux.obj (.text)
+                  0000a108    00000130     rtsv7R4_A_be_eabi.lib : fflush.obj (.text)
+                  0000a238    00000128                           : fd_mul32.obj (.text)
+                  0000a360    00000118                           : _io_perm.obj (.text)
+                  0000a478    0000010c                           : fputc.obj (.text)
+                  0000a584    000000fc                           : fclose.obj (.text)
+                  0000a680    000000ec     esm.obj (.text:retain)
+                  0000a76c    000000e8     dabort.obj (.text)
+                  0000a854    000000e0     rtsv7R4_A_be_eabi.lib : fd_cmp32.obj (.text:__aeabi_cdcmple)
+                  0000a934    000000e0                           : fd_cmp32.obj (.text:__aeabi_cdrcmple)
+                  0000aa14    000000e0     sys_pmu.obj (.text)
+                  0000aaf4    000000d0     notification.obj (.text)
+                  0000abc4    000000b4     rtsv7R4_A_be_eabi.lib : xdunscal.obj (.text)
+                  0000ac78    000000b0                           : memset32.obj (.text)
+                  0000ad28    000000a8                           : fseek.obj (.text)
+                  0000add0    000000a4                           : autoinit.obj (.text)
+                  0000ae74    000000a4                           : printf.obj (.text)
+                  0000af18    000000a4                           : trgmsg.obj (.text)
+                  0000afbc    0000009c                           : copy_decompress_rle.obj (.text)
+                  0000b058    00000084                           : atoi.obj (.text)
+                  0000b0dc    00000084                           : cpy_tbl.obj (.text)
+                  0000b160    00000080                           : ltoa.obj (.text)
+                  0000b1e0    00000078                           : exit.obj (.text)
+                  0000b258    00000070     F021_API_CortexR4_BE.lib : FlashStateMachine.EnableMainSectors.obj (.text:Fapi_enableMainBankSectors)
+                  0000b2c8    00000068     rtsv7R4_A_be_eabi.lib : ldexp.obj (.text)
+                  0000b330    00000064                           : signal.obj (.text)
+                  0000b394    0000005c                           : fd_toi32.obj (.text)
+                  0000b3f0    00000058                           : fd_tou32.obj (.text)
+                  0000b448    00000058                           : feraiseexcept.obj (.text)
+                  0000b4a0    00000054                           : i_div32.obj (.text)
+                  0000b4f4    00000050                           : u_div32.obj (.text)
+                  0000b544    0000004c                           : raise.obj (.text)
+                  0000b590    00000048                           : strncpy.obj (.text)
+                  0000b5d8    00000044                           : xferaise.obj (.text)
+                  0000b61c    0000003c     F021_API_CortexR4_BE.lib : FlashStateMachine.IssueFsmCommand.obj (.text:_Fapi_issueFsmCommand)
+                  0000b658    0000003c     rtsv7R4_A_be_eabi.lib : i_tofd32.obj (.text)
+                  0000b694    00000036     F021_API_CortexR4_BE.lib : Utilities.CalculateFletcher.obj (.text:Fapi_calculateFletcherChecksum)
+                  0000b6ca    00000002     --HOLE-- [fill = 0]
+                  0000b6cc    00000034     rtsv7R4_A_be_eabi.lib : u_tofd32.obj (.text)
+                  0000b700    00000030                           : frexp.obj (.text)
+                  0000b730    0000002c                           : memccpy.obj (.text)
+                  0000b75c    0000002c                           : memchr.obj (.text)
+                  0000b788    00000028                           : strchr.obj (.text)
+                  0000b7b0    00000028                           : strcmp.obj (.text)
+                  0000b7d8    00000024                           : _lock.obj (.text)
+                  0000b7fc    00000020                           : strlen.obj (.text)
+                  0000b81c    0000001c     F021_API_CortexR4_BE.lib : FlashStateMachine.InitializeFlashBanks.obj (.text:_Fapi_divideUnsignedLong)
+                  0000b838    00000018     rtsv7R4_A_be_eabi.lib : strcpy.obj (.text)
+                  0000b850    00000014     F021_API_CortexR4_BE.lib : Utilities.CalculateEcc.obj (.text:Fapi_calculateEcc)
+                  0000b864    00000014     rtsv7R4_A_be_eabi.lib : copy_decompress_none.obj (.text:decompress:none)
+                  0000b878    00000010     F021_API_CortexR4_BE.lib : Utilities.GetNumberOfSectors.obj (.text:Fapi_getNumberOfBankSectors)
+                  0000b888    00000010                              : FlashStateMachine.ScaleFclk.obj (.text:_scaleEEFclk)
+                  0000b898    00000010                              : FlashStateMachine.ScaleFclk.obj (.text:_scaleMainFclk)
+                  0000b8a8    00000010     rtsv7R4_A_be_eabi.lib : copy_zero_init.obj (.text:decompress:ZI)
+                  0000b8b8    00000008                           : copy_decompress_rle.obj (.text:decompress:rle24)
+                  0000b8c0    00000004     sys_phantom.obj (.text:retain)
+                  0000b8c4    00000004     rtsv7R4_A_be_eabi.lib : i_div0.obj (.text)
 
-.const     0    0000b838    00000644     
-                  0000b838    000003a0     het.obj (.const:het1PROGRAM)
-                  0000bbd8    00000180     sys_vim.obj (.const:s_vim_init)
-                  0000bd58    00000101     rtsv7R4_A_be_eabi.lib : ctype.obj (.const:.string:_ctypes_)
-                  0000be59    00000003     --HOLE-- [fill = 0]
-                  0000be5c    00000020     het.obj (.const)
+.const     0    0000b8c8    00000644     
+                  0000b8c8    000003a0     het.obj (.const:het1PROGRAM)
+                  0000bc68    00000180     sys_vim.obj (.const:s_vim_init)
+                  0000bde8    00000101     rtsv7R4_A_be_eabi.lib : ctype.obj (.const:.string:_ctypes_)
+                  0000bee9    00000003     --HOLE-- [fill = 0]
+                  0000beec    00000020     het.obj (.const)
 
-.cinit     0    0000be80    000000d8     
-                  0000be80    000000ad     (.cinit..data.load) [load image, compression = rle]
-                  0000bf2d    00000003     --HOLE-- [fill = 0]
-                  0000bf30    0000000c     (__TI_handler_table)
-                  0000bf3c    00000004     --HOLE-- [fill = 0]
-                  0000bf40    00000008     (.cinit..bss.load) [load image, compression = zero_init]
-                  0000bf48    00000010     (__TI_cinit_table)
+.cinit     0    0000bf10    000000d8     
+                  0000bf10    000000ad     (.cinit..data.load) [load image, compression = rle]
+                  0000bfbd    00000003     --HOLE-- [fill = 0]
+                  0000bfc0    0000000c     (__TI_handler_table)
+                  0000bfcc    00000004     --HOLE-- [fill = 0]
+                  0000bfd0    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  0000bfd8    00000010     (__TI_cinit_table)
 
 .sysmem    0    08001500    00000800     UNINITIALIZED
                   08001500    00000008     rtsv7R4_A_be_eabi.lib : memory.obj (.sysmem)
@@ -175,14 +175,14 @@ section   page    origin      length       input sections
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 0000bf48 records: 2, size/record: 8, table size: 16
-	.data: load addr=0000be80, load size=000000ad bytes, run addr=08001d00, run size=00000335 bytes, compression=rle
-	.bss: load addr=0000bf40, load size=00000008 bytes, run addr=08002038, run size=00000210 bytes, compression=zero_init
+__TI_cinit_table @ 0000bfd8 records: 2, size/record: 8, table size: 16
+	.data: load addr=0000bf10, load size=000000ad bytes, run addr=08001d00, run size=00000335 bytes, compression=rle
+	.bss: load addr=0000bfd0, load size=00000008 bytes, run addr=08002038, run size=00000210 bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 0000bf30 records: 3, size/record: 4, table size: 12
+__TI_handler_table @ 0000bfc0 records: 3, size/record: 4, table size: 12
 	index: 0, handler: __TI_zero_init
 	index: 1, handler: __TI_decompress_rle24
 	index: 2, handler: __TI_decompress_none
@@ -192,15 +192,15 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 
 address   name                                
 -------   ----                                
-0000b150  C$$EXIT                             
-0000aed0  C$$IO$$                             
-0000b7c1  Fapi_calculateEcc                   
-0000b605  Fapi_calculateFletcherChecksum      
-0000b1c9  Fapi_enableMainBankSectors          
-0000b7e9  Fapi_getNumberOfBankSectors         
+0000b1e0  C$$EXIT                             
+0000af60  C$$IO$$                             
+0000b851  Fapi_calculateEcc                   
+0000b695  Fapi_calculateFletcherChecksum      
+0000b259  Fapi_enableMainBankSectors          
+0000b879  Fapi_getNumberOfBankSectors         
 00008ad9  Fapi_initializeFlashBanks           
-00009af5  Fapi_issueProgrammingCommand        
-00009979  Fapi_setActiveFlashBank             
+00009b85  Fapi_issueProgrammingCommand        
+00009a09  Fapi_setActiveFlashBank             
 00007c3c  HOSTclock                           
 00007bd4  HOSTclose                           
 00007b6c  HOSTgetenv                          
@@ -216,14 +216,14 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 0000475c  SpiRxStatus                         
 00004700  SpiTxStatus                         
 08001f70  _Denorm                             
-00009c6c  _Dnorm                              
-00009328  _Dscale                             
-0000ab34  _Dunscale                           
+00009cfc  _Dnorm                              
+00009558  _Dscale                             
+0000abc4  _Dunscale                           
 08001f80  _Eps                                
 0800202c  _Errno                              
-0000b58d  _Fapi_issueFsmCommand               
+0000b61d  _Fapi_issueFsmCommand               
 08002024  _Fenv                               
-0000b548  _Feraise                            
+0000b5d8  _Feraise                            
 08001f90  _Hugeval                            
 08001fa0  _Inf                                
 08001fb0  _Nan                                
@@ -234,61 +234,61 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 08001fe8  _Zero                               
 08002038  __CIOBUF_                           
 00000800  __SYSMEM_SIZE                       
-0000bf48  __TI_CINIT_Base                     
-0000bf58  __TI_CINIT_Limit                    
-0000bf30  __TI_Handler_Table_Base             
-0000bf3c  __TI_Handler_Table_Limit            
+0000bfd8  __TI_CINIT_Base                     
+0000bfe8  __TI_CINIT_Limit                    
+0000bfc0  __TI_Handler_Table_Base             
+0000bfcc  __TI_Handler_Table_Limit            
 000085b0  __TI_PINIT_Base                     
 000085b4  __TI_PINIT_Limit                    
-0000ad40  __TI_auto_init                      
+0000add0  __TI_auto_init                      
 00008154  __TI_cleanup                        
 0800201c  __TI_cleanup_ptr                    
-0000a4f4  __TI_closefile                      
-0000b7d4  __TI_decompress_none                
-0000b828  __TI_decompress_rle24               
-0000a078  __TI_doflush                        
+0000a584  __TI_closefile                      
+0000b864  __TI_decompress_none                
+0000b8b8  __TI_decompress_rle24               
+0000a108  __TI_doflush                        
 08002020  __TI_dtors_ptr                      
 08001ff0  __TI_ft_end                         
 00003a88  __TI_printfi                        
-0000a370  __TI_rd_ok                          
-0000aed8  __TI_readmsg                        
+0000a400  __TI_rd_ok                          
+0000af68  __TI_readmsg                        
 00000000  __TI_static_base__                  
 08002158  __TI_tmpnams                        
-0000ae88  __TI_writemsg                       
-0000a2d0  __TI_wrt_ok                         
-0000b818  __TI_zero_init                      
-0000a7c4  __aeabi_cdcmpeq                     
-0000a7c4  __aeabi_cdcmple                     
-0000a8a4  __aeabi_cdrcmple                    
-0000b304  __aeabi_d2iz                        
-0000b360  __aeabi_d2uiz                       
-00008d44  __aeabi_dadd                        
-00009668  __aeabi_ddiv                        
-0000a1a8  __aeabi_dmul                        
-00008d38  __aeabi_dsub                        
-0000b5c8  __aeabi_i2d                         
-0000b410  __aeabi_idiv                        
-0000b834  __aeabi_idiv0                       
-0000b410  __aeabi_idivmod                     
-0000abe8  __aeabi_memclr                      
-0000abe8  __aeabi_memclr4                     
-0000abe8  __aeabi_memclr8                     
-000097f8  __aeabi_memcpy                      
-000097f8  __aeabi_memcpy4                     
-000097f8  __aeabi_memcpy8                     
-0000abec  __aeabi_memset                      
-0000abec  __aeabi_memset4                     
-0000abec  __aeabi_memset8                     
+0000af18  __TI_writemsg                       
+0000a360  __TI_wrt_ok                         
+0000b8a8  __TI_zero_init                      
+0000a854  __aeabi_cdcmpeq                     
+0000a854  __aeabi_cdcmple                     
+0000a934  __aeabi_cdrcmple                    
+0000b394  __aeabi_d2iz                        
+0000b3f0  __aeabi_d2uiz                       
+00008f74  __aeabi_dadd                        
+000096f8  __aeabi_ddiv                        
+0000a238  __aeabi_dmul                        
+00008f68  __aeabi_dsub                        
+0000b658  __aeabi_i2d                         
+0000b4a0  __aeabi_idiv                        
+0000b8c4  __aeabi_idiv0                       
+0000b4a0  __aeabi_idivmod                     
+0000ac78  __aeabi_memclr                      
+0000ac78  __aeabi_memclr4                     
+0000ac78  __aeabi_memclr8                     
+00009888  __aeabi_memcpy                      
+00009888  __aeabi_memcpy4                     
+00009888  __aeabi_memcpy8                     
+0000ac7c  __aeabi_memset                      
+0000ac7c  __aeabi_memset4                     
+0000ac7c  __aeabi_memset8                     
 08001ffc  __aeabi_stderr                      
 08001ff4  __aeabi_stdin                       
 08001ff8  __aeabi_stdout                      
-0000b63c  __aeabi_ui2d                        
-0000b464  __aeabi_uidiv                       
-0000b464  __aeabi_uidivmod                    
+0000b6cc  __aeabi_ui2d                        
+0000b4f4  __aeabi_uidiv                       
+0000b4f4  __aeabi_uidivmod                    
 000085b8  __aeabi_uldivmod                    
 ffffffff  __binit__                           
 ffffffff  __c_args__                          
-00008f4c  _c_int00                            
+0000917c  _c_int00                            
 000084d8  _coreClearAuxiliaryDataFault_       
 000084ec  _coreClearAuxiliaryInstructionFault_
 000084b0  _coreClearDataFaultAddress_         
@@ -310,8 +310,8 @@ ffffffff  __c_args__
 00008494  _coreGetInstructionFault_           
 000082e8  _coreInitRegisters_                 
 000083a0  _coreInitStackPointer_              
-0000bd58  _ctypes_                            
-0000a6dc  _dabort                             
+0000bde8  _ctypes_                            
+0000a76c  _dabort                             
 00008500  _disable_FIQ_interrupt_             
 00008508  _disable_IRQ_interrupt_             
 000084f8  _disable_interrupt_                 
@@ -322,29 +322,29 @@ ffffffff  __c_args__
 000083ec  _getCPSRValue_                      
 000083f4  _gotoCPUIdle_                       
 08002014  _lock                               
-0000b760  _nop                                
-0000a9e0  _pmuDisableCountersGlobal_          
-0000a9d0  _pmuEnableCountersGlobal_           
-0000aa3c  _pmuGetCycleCount_                  
-0000aa44  _pmuGetEventCount_                  
-0000aa50  _pmuGetOverflow_                    
-0000a984  _pmuInit_                           
-0000aa10  _pmuResetCounters_                  
-0000a9f0  _pmuResetCycleCounter_              
-0000aa00  _pmuResetEventCounters_             
-0000aa30  _pmuSetCountEvent_                  
-0000aa20  _pmuStartCounters_                  
-0000aa28  _pmuStopCounters_                   
-0000b754  _register_lock                      
-0000b748  _register_unlock                    
-0000b7f9  _scaleEEFclk                        
-0000b809  _scaleMainFclk                      
+0000b7f0  _nop                                
+0000aa70  _pmuDisableCountersGlobal_          
+0000aa60  _pmuEnableCountersGlobal_           
+0000aacc  _pmuGetCycleCount_                  
+0000aad4  _pmuGetEventCount_                  
+0000aae0  _pmuGetOverflow_                    
+0000aa14  _pmuInit_                           
+0000aaa0  _pmuResetCounters_                  
+0000aa80  _pmuResetCycleCounter_              
+0000aa90  _pmuResetEventCounters_             
+0000aac0  _pmuSetCountEvent_                  
+0000aab0  _pmuStartCounters_                  
+0000aab8  _pmuStopCounters_                   
+0000b7e4  _register_lock                      
+0000b7d8  _register_unlock                    
+0000b889  _scaleEEFclk                        
+0000b899  _scaleMainFclk                      
 08001500  _sys_memory                         
 08002018  _unlock                             
-0000b158  abort                               
+0000b1e8  abort                               
 00001004  adc1ParityCheck                     
 000076b4  add_device                          
-0000afc8  atoi                                
+0000b058  atoi                                
 ffffffff  binit                               
 00006c54  calloc                              
 000010bc  can1ParityCheck                     
@@ -363,7 +363,7 @@ ffffffff  binit
 00001aa4  checkRAMUERRTest                    
 000007bc  checkefcSelfTest                    
 00007624  close                               
-0000b04c  copy_in                             
+0000b0dc  copy_in                             
 00000234  cpuSelfTest                         
 00000dfc  cpuSelfTestFail                     
 00000df4  custom_dabort                       
@@ -371,7 +371,7 @@ ffffffff  binit
 00005aac  edgeDisableNotification             
 00005a70  edgeEnableNotification              
 00005a44  edgeGetCounter                      
-0000ab0c  edgeNotification                    
+0000ab9c  edgeNotification                    
 00005a18  edgeResetCounter                    
 00000660  efcCheck                            
 00001f98  efcGetConfigValue                   
@@ -391,35 +391,35 @@ ffffffff  binit
 00007140  esmGetConfigValue                   
 00006fa4  esmGetStatus                        
 00007030  esmGetStatusBuffer                  
-0000aa64  esmGroup1Notification               
-0000aa74  esmGroup2Notification               
-0000a5f0  esmHighInterrupt                    
+0000aaf4  esmGroup1Notification               
+0000ab04  esmGroup2Notification               
+0000a680  esmHighInterrupt                    
 00006cac  esmInit                             
 000070f0  esmSelfTestStatus                   
 00006f84  esmSetCounterPreloadValue           
 00006ea0  esmSetInterruptLevel                
 00006e28  esmTriggerErrorPinReset             
-0000b164  exit                                
-0000a5a0  fclose                              
-0000b3b8  feraiseexcept                       
-0000a0fc  fflush                              
+0000b1f4  exit                                
+0000a630  fclose                              
+0000b448  feraiseexcept                       
+0000a18c  fflush                              
 00001c00  fmcBus1ParityCheck                  
 0000085c  fmcBus2Check                        
 00000898  fmcECCcheck                         
 000081ec  fopen                               
-0000a3e8  fputc                               
-00009154  fputs                               
+0000a478  fputc                               
+00009384  fputs                               
 00006828  free                                
 000081a0  freopen                             
-0000b670  frexp                               
-0000ac98  fseek                               
+0000b700  frexp                               
+0000ad28  fseek                               
 00007ea0  gioDisableNotification              
 00007e64  gioEnableNotification               
 00007dcc  gioGetBit                           
 00007edc  gioGetConfigValue                   
 00007df4  gioGetPort                          
 00007ca8  gioInit                             
-0000aabc  gioNotification                     
+0000ab4c  gioNotification                     
 00007d5c  gioSetBit                           
 00007d3c  gioSetDirection                     
 00007dac  gioSetPort                          
@@ -428,26 +428,26 @@ ffffffff  binit
 00000eac  het1ParityCheck                     
 00005be8  hetGetTimestamp                     
 000054cc  hetInit                             
-0000ab20  hetNotification                     
+0000abb0  hetNotification                     
 00005bcc  hetResetTimestamp                   
 00000f4c  htu1ParityCheck                     
-0000b238  ldexp                               
+0000b2c8  ldexp                               
 000075e0  lseek                               
-0000b0d0  ltoa                                
-000094c8  main                                
+0000b160  ltoa                                
+00008d38  main                                
 0000676c  malloc                              
 00004b94  mapClocks                           
 00006b14  memalign                            
-0000b6a0  memccpy                             
-0000b6cc  memchr                              
-000097f8  memcpy                              
+0000b730  memccpy                             
+0000b75c  memchr                              
+00009888  memcpy                              
 00000174  memoryInit                          
-0000aa84  memoryPort0TestFailNotification     
-0000aaa0  memoryPort1TestFailNotification     
-0000abf8  memset                              
+0000ab14  memoryPort0TestFailNotification     
+0000ab30  memoryPort1TestFailNotification     
+0000ac88  memset                              
 00001260  mibspi1ParityCheck                  
 00006670  minit                               
-00009f24  muxInit                             
+00009fb4  muxInit                             
 000074c8  open                                
 00001d2c  pbistFail                           
 00001db0  pbistGetConfigValue                 
@@ -458,21 +458,21 @@ ffffffff  binit
 000002cc  pbistSelfCheck                      
 00000578  pbistStop                           
 00004b40  periphInit                          
-0000b830  phantomInterrupt                    
-00009fac  pinmuxGetConfigValue                
-0000adec  printf                              
-0000a3e8  putc                                
-0000a4e0  putchar                             
-000092f0  puts                                
+0000b8c0  phantomInterrupt                    
+0000a03c  pinmuxGetConfigValue                
+0000ae7c  printf                              
+0000a478  putc                                
+0000a570  putchar                             
+00009520  puts                                
 000059e8  pwmDisableNotification              
 000059a0  pwmEnableNotification               
 000058b8  pwmGetSignal                        
-0000aaf4  pwmNotification                     
+0000ab84  pwmNotification                     
 000055f4  pwmSetDuty                          
 00005730  pwmSetSignal                        
 0000558c  pwmStart                            
 000055c0  pwmStop                             
-0000b4b4  raise                               
+0000b544  raise                               
 00007484  read                                
 00006980  realloc                             
 0000738c  remove                              
@@ -482,17 +482,17 @@ ffffffff  binit
 00000020  selftestFailNotification            
 00004b00  setupFlash                          
 00004a68  setupPLL                            
-00009dcc  setvbuf                             
-0000b2a0  signal                              
+00009e5c  setvbuf                             
+0000b330  signal                              
 00004864  spi1GetConfigValue                  
 000047ec  spiDisableLoopback                  
 00004838  spiDisableNotification              
 000047b8  spiEnableLoopback                   
 00004808  spiEnableNotification               
-0000aae4  spiEndNotification                  
+0000ab74  spiEndNotification                  
 000041f8  spiGetData                          
 00003f8c  spiInit                             
-0000aad0  spiNotification                     
+0000ab60  spiNotification                     
 000040dc  spiReceiveData                      
 000045f0  spiSendAndGetData                   
 000043ec  spiSendData                         
@@ -503,11 +503,11 @@ ffffffff  binit
 00001ef8  stcGetConfigValue                   
 000001b8  stcSelfCheck                        
 00000df8  stcSelfCheckFail                    
-0000b6f8  strchr                              
-0000b720  strcmp                              
-0000b7a8  strcpy                              
-0000b76c  strlen                              
-0000b500  strncpy                             
+0000b788  strchr                              
+0000b7b0  strcmp                              
+0000b838  strcpy                              
+0000b7fc  strlen                              
+0000b590  strncpy                             
 00004d74  systemGetConfigValue                
 00004c78  systemInit                          
 00004d44  systemPowerDown                     
@@ -713,122 +713,122 @@ address   name
 000085b8  __aeabi_uldivmod                    
 00008870  vimParityErrorHandler               
 00008ad9  Fapi_initializeFlashBanks           
-00008d38  __aeabi_dsub                        
-00008d44  __aeabi_dadd                        
-00008f4c  _c_int00                            
-00009154  fputs                               
-000092f0  puts                                
-00009328  _Dscale                             
-000094c8  main                                
-00009668  __aeabi_ddiv                        
-000097f8  __aeabi_memcpy                      
-000097f8  __aeabi_memcpy4                     
-000097f8  __aeabi_memcpy8                     
-000097f8  memcpy                              
-00009979  Fapi_setActiveFlashBank             
-00009af5  Fapi_issueProgrammingCommand        
-00009c6c  _Dnorm                              
-00009dcc  setvbuf                             
-00009f24  muxInit                             
-00009fac  pinmuxGetConfigValue                
-0000a078  __TI_doflush                        
-0000a0fc  fflush                              
-0000a1a8  __aeabi_dmul                        
-0000a2d0  __TI_wrt_ok                         
-0000a370  __TI_rd_ok                          
-0000a3e8  fputc                               
-0000a3e8  putc                                
-0000a4e0  putchar                             
-0000a4f4  __TI_closefile                      
-0000a5a0  fclose                              
-0000a5f0  esmHighInterrupt                    
-0000a6dc  _dabort                             
-0000a7c4  __aeabi_cdcmpeq                     
-0000a7c4  __aeabi_cdcmple                     
-0000a8a4  __aeabi_cdrcmple                    
-0000a984  _pmuInit_                           
-0000a9d0  _pmuEnableCountersGlobal_           
-0000a9e0  _pmuDisableCountersGlobal_          
-0000a9f0  _pmuResetCycleCounter_              
-0000aa00  _pmuResetEventCounters_             
-0000aa10  _pmuResetCounters_                  
-0000aa20  _pmuStartCounters_                  
-0000aa28  _pmuStopCounters_                   
-0000aa30  _pmuSetCountEvent_                  
-0000aa3c  _pmuGetCycleCount_                  
-0000aa44  _pmuGetEventCount_                  
-0000aa50  _pmuGetOverflow_                    
-0000aa64  esmGroup1Notification               
-0000aa74  esmGroup2Notification               
-0000aa84  memoryPort0TestFailNotification     
-0000aaa0  memoryPort1TestFailNotification     
-0000aabc  gioNotification                     
-0000aad0  spiNotification                     
-0000aae4  spiEndNotification                  
-0000aaf4  pwmNotification                     
-0000ab0c  edgeNotification                    
-0000ab20  hetNotification                     
-0000ab34  _Dunscale                           
-0000abe8  __aeabi_memclr                      
-0000abe8  __aeabi_memclr4                     
-0000abe8  __aeabi_memclr8                     
-0000abec  __aeabi_memset                      
-0000abec  __aeabi_memset4                     
-0000abec  __aeabi_memset8                     
-0000abf8  memset                              
-0000ac98  fseek                               
-0000ad40  __TI_auto_init                      
-0000adec  printf                              
-0000ae88  __TI_writemsg                       
-0000aed0  C$$IO$$                             
-0000aed8  __TI_readmsg                        
-0000afc8  atoi                                
-0000b04c  copy_in                             
-0000b0d0  ltoa                                
-0000b150  C$$EXIT                             
-0000b158  abort                               
-0000b164  exit                                
-0000b1c9  Fapi_enableMainBankSectors          
-0000b238  ldexp                               
-0000b2a0  signal                              
-0000b304  __aeabi_d2iz                        
-0000b360  __aeabi_d2uiz                       
-0000b3b8  feraiseexcept                       
-0000b410  __aeabi_idiv                        
-0000b410  __aeabi_idivmod                     
-0000b464  __aeabi_uidiv                       
-0000b464  __aeabi_uidivmod                    
-0000b4b4  raise                               
-0000b500  strncpy                             
-0000b548  _Feraise                            
-0000b58d  _Fapi_issueFsmCommand               
-0000b5c8  __aeabi_i2d                         
-0000b605  Fapi_calculateFletcherChecksum      
-0000b63c  __aeabi_ui2d                        
-0000b670  frexp                               
-0000b6a0  memccpy                             
-0000b6cc  memchr                              
-0000b6f8  strchr                              
-0000b720  strcmp                              
-0000b748  _register_unlock                    
-0000b754  _register_lock                      
-0000b760  _nop                                
-0000b76c  strlen                              
-0000b7a8  strcpy                              
-0000b7c1  Fapi_calculateEcc                   
-0000b7d4  __TI_decompress_none                
-0000b7e9  Fapi_getNumberOfBankSectors         
-0000b7f9  _scaleEEFclk                        
-0000b809  _scaleMainFclk                      
-0000b818  __TI_zero_init                      
-0000b828  __TI_decompress_rle24               
-0000b830  phantomInterrupt                    
-0000b834  __aeabi_idiv0                       
-0000bd58  _ctypes_                            
-0000bf30  __TI_Handler_Table_Base             
-0000bf3c  __TI_Handler_Table_Limit            
-0000bf48  __TI_CINIT_Base                     
-0000bf58  __TI_CINIT_Limit                    
+00008d38  main                                
+00008f68  __aeabi_dsub                        
+00008f74  __aeabi_dadd                        
+0000917c  _c_int00                            
+00009384  fputs                               
+00009520  puts                                
+00009558  _Dscale                             
+000096f8  __aeabi_ddiv                        
+00009888  __aeabi_memcpy                      
+00009888  __aeabi_memcpy4                     
+00009888  __aeabi_memcpy8                     
+00009888  memcpy                              
+00009a09  Fapi_setActiveFlashBank             
+00009b85  Fapi_issueProgrammingCommand        
+00009cfc  _Dnorm                              
+00009e5c  setvbuf                             
+00009fb4  muxInit                             
+0000a03c  pinmuxGetConfigValue                
+0000a108  __TI_doflush                        
+0000a18c  fflush                              
+0000a238  __aeabi_dmul                        
+0000a360  __TI_wrt_ok                         
+0000a400  __TI_rd_ok                          
+0000a478  fputc                               
+0000a478  putc                                
+0000a570  putchar                             
+0000a584  __TI_closefile                      
+0000a630  fclose                              
+0000a680  esmHighInterrupt                    
+0000a76c  _dabort                             
+0000a854  __aeabi_cdcmpeq                     
+0000a854  __aeabi_cdcmple                     
+0000a934  __aeabi_cdrcmple                    
+0000aa14  _pmuInit_                           
+0000aa60  _pmuEnableCountersGlobal_           
+0000aa70  _pmuDisableCountersGlobal_          
+0000aa80  _pmuResetCycleCounter_              
+0000aa90  _pmuResetEventCounters_             
+0000aaa0  _pmuResetCounters_                  
+0000aab0  _pmuStartCounters_                  
+0000aab8  _pmuStopCounters_                   
+0000aac0  _pmuSetCountEvent_                  
+0000aacc  _pmuGetCycleCount_                  
+0000aad4  _pmuGetEventCount_                  
+0000aae0  _pmuGetOverflow_                    
+0000aaf4  esmGroup1Notification               
+0000ab04  esmGroup2Notification               
+0000ab14  memoryPort0TestFailNotification     
+0000ab30  memoryPort1TestFailNotification     
+0000ab4c  gioNotification                     
+0000ab60  spiNotification                     
+0000ab74  spiEndNotification                  
+0000ab84  pwmNotification                     
+0000ab9c  edgeNotification                    
+0000abb0  hetNotification                     
+0000abc4  _Dunscale                           
+0000ac78  __aeabi_memclr                      
+0000ac78  __aeabi_memclr4                     
+0000ac78  __aeabi_memclr8                     
+0000ac7c  __aeabi_memset                      
+0000ac7c  __aeabi_memset4                     
+0000ac7c  __aeabi_memset8                     
+0000ac88  memset                              
+0000ad28  fseek                               
+0000add0  __TI_auto_init                      
+0000ae7c  printf                              
+0000af18  __TI_writemsg                       
+0000af60  C$$IO$$                             
+0000af68  __TI_readmsg                        
+0000b058  atoi                                
+0000b0dc  copy_in                             
+0000b160  ltoa                                
+0000b1e0  C$$EXIT                             
+0000b1e8  abort                               
+0000b1f4  exit                                
+0000b259  Fapi_enableMainBankSectors          
+0000b2c8  ldexp                               
+0000b330  signal                              
+0000b394  __aeabi_d2iz                        
+0000b3f0  __aeabi_d2uiz                       
+0000b448  feraiseexcept                       
+0000b4a0  __aeabi_idiv                        
+0000b4a0  __aeabi_idivmod                     
+0000b4f4  __aeabi_uidiv                       
+0000b4f4  __aeabi_uidivmod                    
+0000b544  raise                               
+0000b590  strncpy                             
+0000b5d8  _Feraise                            
+0000b61d  _Fapi_issueFsmCommand               
+0000b658  __aeabi_i2d                         
+0000b695  Fapi_calculateFletcherChecksum      
+0000b6cc  __aeabi_ui2d                        
+0000b700  frexp                               
+0000b730  memccpy                             
+0000b75c  memchr                              
+0000b788  strchr                              
+0000b7b0  strcmp                              
+0000b7d8  _register_unlock                    
+0000b7e4  _register_lock                      
+0000b7f0  _nop                                
+0000b7fc  strlen                              
+0000b838  strcpy                              
+0000b851  Fapi_calculateEcc                   
+0000b864  __TI_decompress_none                
+0000b879  Fapi_getNumberOfBankSectors         
+0000b889  _scaleEEFclk                        
+0000b899  _scaleMainFclk                      
+0000b8a8  __TI_zero_init                      
+0000b8b8  __TI_decompress_rle24               
+0000b8c0  phantomInterrupt                    
+0000b8c4  __aeabi_idiv0                       
+0000bde8  _ctypes_                            
+0000bfc0  __TI_Handler_Table_Base             
+0000bfcc  __TI_Handler_Table_Limit            
+0000bfd8  __TI_CINIT_Base                     
+0000bfe8  __TI_CINIT_Limit                    
 08001500  _sys_memory                         
 08001d00  _ftable                             
 08001f70  _Denorm                             

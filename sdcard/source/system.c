@@ -186,7 +186,7 @@ void setupFlash(void)
 
     /** - Setup flash bank power modes */
     flashWREG->FBFALLBACK = 0x00000000U
-                          | (uint32)((uint32)SYS_STANDBY << 14U) /* BANK 7 */
+                          | (uint32)((uint32)SYS_ACTIVE << 14U) /* BANK 7 */
                           | (uint32)((uint32)SYS_STANDBY << 0U); /* BANK 0 */
 
 /* USER CODE BEGIN (8) */

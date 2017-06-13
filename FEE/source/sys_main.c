@@ -1,53 +1,14 @@
-/** @example example_TI_Fee_Write_Read.c
-*   This is an example which descibes the steps to use TI-Fee Driver for simple Write Sync, Write Async,
-*   Read, Invalidate and Full Format of EEPROM bank.
+/** @file sys_main.c 
+*   @brief Application main file
+*   @date 08-Feb-2017
+*   @version 04.06.01
 *
-*   @b Step @b 1:
-*
-*   Create a new project.
-*
-*   Navigate: -> File -> New -> Project -> TMS570xx / RMx
-*
-*   @b Step @b 2:
-*
-*   Configure driver code generation:
-*   - Enable TI-FEE driver
-*   - Disable others
-*
-*   Navigate: -> TMS570xx / RMx -> Driver Enable
-*
-*   @b Step @b 3:
-*
-*   Navigate: -> TMS570xx / RMx -> TI-FEE
-*
-*   Configure FEE settings ( Leave Default for below Example)
-*
-*   @b Step @b 4:
-*
-*   Navigate: -> File -> Generate Code
-*
-*   @b Step @b 5:
-*
-*   Copy source code below into your application.
-*
-*   @b Step @b 6:
-*
-*   Add F021 Library files to CCS Project
-*   - Add/Link F021_API_CortexR4_BE.lib from folder C:/ti/Hercules/F021 Flash API/2.01.01 to CCS Project
-*   - Add Path C:/ti/Hercules/F021 Flash API/2.01.01/include to Include Path in CCS Project
-*
-*   The example file example_TI_Fee_Write_Read.c can also be found in the examples folder: ../HALCoGen/examples
-*
-*   @note HALCoGen generates an enpty main function in sys_main.c,
-*         please make sure that you link in the right main function or copy the source into the user code sections of this file.
-*
+*   This file contains an empty main function,
+*   which can be used for the application.
 */
 
-
-/* (c) Texas Instruments 2009-2015, All rights reserved. */
-
 /* 
-* Copyright (C) 2009-2015 Texas Instruments Incorporated - www.ti.com
+* Copyright (C) 2009-2016 Texas Instruments Incorporated - www.ti.com 
 * 
 * 
 *  Redistribution and use in source and binary forms, with or without 
@@ -71,21 +32,24 @@
 *  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 *  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
 *  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
-*  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT 
+*  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
 *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-*  DATA, OR PROFITS; OR BUSINESS INTERRUPTION HOWEVER CAUSED AND ON ANY
+*  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-*  INCLUDING NEGLIGENCE OR OTHERWISE ARISING IN ANY WAY OUT OF THE USE 
+*  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
 *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *
 */
+
 
 /* USER CODE BEGIN (0) */
 #include "ti_fee.h"
 /* USER CODE END */
 
 /* Include Files */
+
 #include "sys_common.h"
+
 /* USER CODE BEGIN (1) */
 
 
@@ -126,7 +90,7 @@ void delay(void)
 /* USER CODE BEGIN (2) */
 /* USER CODE END */
 
-void main(void)
+int main(void)
 {
 /* USER CODE BEGIN (3) */
 	unsigned int BlockNumber;
@@ -138,19 +102,20 @@ void main(void)
 	/* Initialize RAM array.*/
 	for(loop=0;loop<100;loop++)SpecialRamBlock[loop] = loop;
 
+
 	/* Initialize FEE. This will create Virtual sectors, initialize global variables etc.*/
 	TI_Fee_Init();
 	do
 	{
 		TI_Fee_MainFunction();
 		delay();
-		Status=TI_Fee_GetStatus(0 );
+		Status=TI_Fee_GetStatus(0);
 	}
 	while(Status!= IDLE);
 
 	/* Write the block into EEP Asynchronously. Block size is configured in ti_fee_cfg.c file. Default Block size is 
 	   8 bytes */
-	BlockNumber=0x1;
+	BlockNumber = 1;
 	TI_Fee_WriteAsync(BlockNumber, &SpecialRamBlock[0]);
 	do
 	{
@@ -190,7 +155,10 @@ void main(void)
 
     while(1);
 /* USER CODE END */
+
+    return 0;
 }
+
 
 /* USER CODE BEGIN (4) */
 /* USER CODE END */

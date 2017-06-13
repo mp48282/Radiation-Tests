@@ -436,7 +436,7 @@ typedef struct tcmflash_config_reg
 #define TCMFLASH_FBPROT_CONFIGVALUE			0U
 #define TCMFLASH_FBSE_CONFIGVALUE			0U
 #define TCMFLASH_FBAC_CONFIGVALUE			0xFU
-#define TCMFLASH_FBFALLBACK_CONFIGVALUE     ( (uint32)((uint32)SYS_STANDBY << 14U) \
+#define TCMFLASH_FBFALLBACK_CONFIGVALUE     ( (uint32)((uint32)SYS_ACTIVE << 14U) \
                                             | (uint32)((uint32)3U << 12U) \
                                             | (uint32)((uint32)3U << 10U) \
                                             | (uint32)((uint32)3U << 8U) \

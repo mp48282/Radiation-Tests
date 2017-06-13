@@ -1113,3 +1113,48 @@ CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Re
 CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
 CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
 [CortexR4] All devices started...
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+Return check 0
+FSM Status 4112
+Return of programming command 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+Return check 0
+FSM Status 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+CortexR4: GEL Output: 	Memory Map Setup for Flash @ Address 0x0 due to System Reset
+[CortexR4] Initialize Flash Banks return: 0
+Set Active Flash Bank return: 0
+enable main bank sectors return: 0

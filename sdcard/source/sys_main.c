@@ -83,17 +83,21 @@ int main(void)
 	spiInit();
 	hetInit();
 
-	uint8 buffer = 0x55;
-	uint32 address = 0x0000FFFE;
+	uint8 buffer[4];
+	buffer[0] = 0x15;
+	buffer[1] = 0x25;
+	buffer[2] = 0x35;
+	buffer[3] = 0x45;
+	uint32 address = 0x00014000;
 
 	oReturnCheck = Fapi_initializeFlashBanks(80);
 	printf("Initialize Flash Banks return: %d\n", oReturnCheck);
 	oReturnCheck = Fapi_setActiveFlashBank(Fapi_FlashBank0);
 	printf("Set Active Flash Bank return: %d\n", oReturnCheck);
-	oReturnCheck = Fapi_enableMainBankSectors((uint16)0xFFFF);
+	oReturnCheck = Fapi_enableMainBankSectors(0xFFFF);
 	printf("enable main bank sectors return: %d\n", oReturnCheck);
 	while(Fapi_checkFsmForReady() != Fapi_Status_FsmReady);
-	oReturnCheck = Fapi_issueProgrammingCommand(&address, &buffer, (uint8)1, 0, 0, Fapi_AutoEccGeneration);
+	oReturnCheck = Fapi_issueProgrammingCommand((uint32*)address, buffer, (uint8)4, 0, 0, Fapi_DataOnly);
 	while(Fapi_checkFsmForReady() == Fapi_Status_FsmBusy);
 	printf("Return check %d\n", oReturnCheck);
 	printf("FSM Status %d\n", Fapi_getFsmStatus());
